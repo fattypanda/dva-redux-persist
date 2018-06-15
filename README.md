@@ -44,3 +44,10 @@ export function config () {
   };
 }
 ```
+
+#### API 
+## storageEnhancer(opts)
+```
+type opts = Object
+```
+`opts` 参数最终传到 `redux-persist` 的 `persistReducer(opts)` .
