@@ -1,5 +1,27 @@
 {
-  "version": "0.0.1",
+  "name": "dva-redux-persist",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "author": "fattypanda <1076659852@qq.com>",
+  "license": "MIT",
+  "files": [
+    "lib/*"
+  ],
+  "keywords": [
+    "dva",
+    "dva-model",
+    "redux-persist",
+    "dva-redux-persist",
+    "storage",
+    "localStorage",
+    "sissionStorage"
+  ],
+  "homepage": "https://github.com/fattypanda/dva-redux-persist",
+  "repository": {
+    "url": "https://github.com/fattypanda/dva-redux-persist",
+    "type": "git"
+  },
+  "bugs": "https://github.com/fattypanda/dva-redux-persist/issues",
   "scripts": {
     "start": "umi dev",
     "build": "umi build",
