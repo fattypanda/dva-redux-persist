@@ -12,7 +12,7 @@ export default {
 
   effects: {
     *fetch({ payload }, { call, put }) {
-      yield put({ type: 'save' });
+      yield put({ type: 'save', payload: { time: new Date().getTime() } });
     },
   },
 
