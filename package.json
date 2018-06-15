@@ -1,0 +1,59 @@
+{
+  "name": "dva-redux-persist",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "author": "fattypanda <1076659852@qq.com>",
+  "license": "MIT",
+  "files": [
+    "lib/*"
+  ],
+  "keywords": [
+    "dva",
+    "dva-model",
+    "redux-persist",
+    "dva-redux-persist",
+    "storage",
+    "localStorage",
+    "sissionStorage"
+  ],
+  "homepage": "https://github.com/fattypanda/dva-redux-persist",
+  "repository": {
+    "url": "https://github.com/fattypanda/dva-redux-persist",
+    "type": "git"
+  },
+  "bugs": "https://github.com/fattypanda/dva-redux-persist/issues",
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build",
+    "build:lib": "babel src/utils/dva-redux-persist --out-dir lib --source-maps",
+    "lint": "eslint --ext .js src test",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "dva": "^2.3.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "redux-persist": "^5.10.0"
+  },
+  "devDependencies": {
+    "umi": "^1.3.11",
+    "umi-plugin-dva": "^0.9.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-dva-hmr": "^0.3.2",
+    "babel-plugin-import": "^1.7.0",
+    "babel-plugin-istanbul": "^4.1.6",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.14.0",
+    "eslint-config-umi": "^0.1.1",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "husky": "^0.12.0"
+  }
+}
